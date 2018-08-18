@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.karim.offer_sef_v2.Activites.ChoseLocationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/log"
+            android:layout_marginBottom="50dp"
+            />
+
+
+        <Button
+            android:text="map"
+            android:id="@+id/map_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            tools:targetApi="lollipop"
+            />
+        <Button
+            android:text="pciker"
+            android:id="@+id/map_button_with_pois"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="16dp"
+            tools:targetApi="lollipop"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/leku_app_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vs"
+        android:textAlignment="center"
+        android:layout_gravity="bottom"
+        android:paddingBottom="8dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+
+        />
+</android.support.constraint.ConstraintLayout>
